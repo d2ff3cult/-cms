@@ -46,5 +46,6 @@ insert into users (
  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151411_11c9f9ec_9344516.png "Snipaste_2021-09-28_15-12-37.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151427_57fb48fc_9344516.png "Snipaste_2021-09-28_15-12-52.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151444_b266f9b0_9344516.png "Snipaste_2021-09-28_15-13-24.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/163324_ac29d895_9344516.png "Snipaste_2021-09-28_15-41-19.png")
 
   这个项目我前后花了大概一个月的时间完成，教学视频里展示的的功能都做了，晓舟老师的源码里有些不完整，展示页面设计稿的部分功能没有实现，目前我准备抽时间完善右侧精选栏，其他的功能回头有时间我会把它们一一完善，最后将项目展示在腾讯云上。后期再来详细总结这次做的项目。
