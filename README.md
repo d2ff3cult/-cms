@@ -1,16 +1,13 @@
 # 晓舟报告_内容管理系统
 
-### 一、宗旨
+### 一、项目介绍
 
-**晓舟报告，让学习更高效！**
+本项目是晓舟老师分享的学习资源 https://gitee.com/xiaozhou_report/xiaozhou_cms
 
-本项目的目标是让前端开发学员熟悉一个完整的web项目开发流程，以及熟悉必要的知识点。
-
-我们的宗旨是让热爱web开发的同学获得更高的学习效率。
 
 ### 二、启动项目
 
-1. 启动项目之前，先按下面第四节的内容，在mysql数据库中创建xiaozhoucms数据库。
+1. 启动项目之前，先按第四节的内容，在mysql数据库中创建xiaozhoucms数据库。
 2. 在server目录中使用`npm install`下载依赖，然后执行`npm run dev`即可启动项目（启动前请先创建数据库，下面内容有介绍）
 3. 在client目录中使用`npm install`下载依赖，然后执行`npm run serve`即可启动项目
 4. 访问http://127.0.0.1:8080/#/login可以进入后台登录页面
@@ -21,9 +18,6 @@
 * docs：项目开发的相关文档
 * server：项目服务器端（基于node，egg，mysql）
 * client：项目前端（基于vue）
-* example：以项目为基础拆分的小案例，每一个demo都是一个项目，
-* example/demo_module_backup：是一个基础项目备份，大家可以直接拷贝过去，然后在此基础上去开发，这样可以省去vue和egg项目初始化的过程。
-
 
 ### 四、数据库初始化
 
@@ -45,9 +39,12 @@ insert into users (
 -- 管理员用户名为admin，密码使用md5加密，所以初始值设置为‘123456’的加密字符串。
 ```
 
-### 五、扫二维码关注【程序员晓舟】公众号
+### 五、页面效果和项目总结
 
-![晓舟报告公众号二维码](mpQrcode.jpg)
-### 六、联系作者
-![晓舟微信](myQrcode.jpg)
 
+ ![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151342_f2eb1855_9344516.png "Snipaste_2021-09-28_15-11-52.png")
+ ![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151411_11c9f9ec_9344516.png "Snipaste_2021-09-28_15-12-37.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151427_57fb48fc_9344516.png "Snipaste_2021-09-28_15-12-52.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0928/151444_b266f9b0_9344516.png "Snipaste_2021-09-28_15-13-24.png")
+
+  这个项目我前后花了大概一个月的时间完成，教学视频里展示的的功能都做了，晓舟老师的源码里有些不完整，展示页面设计稿的部分功能没有实现，目前我准备抽时间完善右侧精选栏，其他的功能回头有时间我会把它们一一完善，最后将项目展示在腾讯云上。后期再来详细总结这次做的项目。
